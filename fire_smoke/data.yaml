@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['fire', 'smoke']
+
+roboflow:
+  workspace: hot-fire
+  project: hot-fire
+  version: 9
+  license: Public Domain
+  url: https://universe.roboflow.com/hot-fire/hot-fire/dataset/9
